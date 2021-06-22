@@ -1,0 +1,141 @@
+/* global */
+:root {
+    --primary-color: #193B57;
+    --primary-dark: #062743;
+    --text-color: #000;
+    --gray: #C4C4C4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p, label, input, button {
+    font-family: 'Niramit', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+main, footer {
+    max-width: 710px;
+    min-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    gap: 3.7rem
+}
+
+/* .instructions */
+.instructions {
+    width: 100%;
+    align-self: left;
+}
+
+h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin: 0 0 1.2rem 0;
+}
+
+/* form */
+form {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 3rem;
+}
+
+form div {
+    width: 100%
+}
+
+label {
+    display: inherit;
+    position: inherit;
+    transition: 0.5s;
+}
+
+.hide {
+    transition: 0.5s;
+    display: none;
+    position: absolute;
+    right: -999px;
+}
+
+input {
+    width: 100%;
+    height: 2rem;
+
+    padding: 0 0 0 .75rem;
+
+    border: 0;
+    border-bottom: 2px solid var(--gray);
+}
+
+input:focus {
+    border: 2px solid var(--primary-dark) ;
+}
+
+.pass-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pass-container input {
+    width: 90%;
+}
+
+.pass-container img {
+    width: 2rem;
+    height: 2rem;
+    filter: opacity(0.7);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.submit {
+    border: none;
+    max-width: 455px;
+    width: 70%;
+    height: 3rem;
+
+    margin: 0 0 3rem 0;
+
+    color: #FFF;
+    background-color: var(--primary-dark);
+
+    cursor: pointer;
+}
+
+.submit:focus {
+    border: 2px solid #FFF;
+}
+
+.submit:hover {
+    filter: opacity(0.8);
+    transition: 0.3s ease-in;
+}
