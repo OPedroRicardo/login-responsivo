@@ -1,16 +1,19 @@
 # Login Responsivo
-## Objetivo
+
+## Fase 1 (HTML, CSS e JS)
+
+### Objetivo
 
 Desenvolver uma tela de login responsiva.
 
-## Detalhes
+### Detalhes
 
 - Adicionar recursos para melhorar experiência do usuário.
 - Responsividade para várias telas.
 - Seguir padrões de fonte e cor da YBOH.
 - Personalidade no código (um ar um tanto descontraído).
 
-## Notas
+### Notas
 
 - Adicionei um recurso de mostrar o rótulo do campo ao receber foco (para usuários com problemas de atenção ou memória, pode ser interessante).
 - Personalizei a borda do foco com uma cor mais harmônica.
@@ -18,3 +21,19 @@ Desenvolver uma tela de login responsiva.
 
 ---
 [Figma](https://www.figma.com/file/uygEfrQcxkAmbJg0rozUpU/yboh-login?node-id=1%3A5)
+
+## Fase 2 (Vue)
+
+### Objetivo
+
+- Contruir o exato mesmo layout em Vue.js (mesmo nunca tendo nem tocado em Vue kk)
+
+### Notas
+
+- A lógica utilizada foi da mais básica possível, gastar tempo com muita estrutura me custaria dias por falta de contato com a linguagem. Nada que um pouco de comentário não resolva em um layout simples desses.
+
+## Fase 3 (EM ANDAMENTO -> Vue + Quasar)
+
+### Objetivo
+
+- Entender e aplicar o que vejo de principal no Quasar.
