@@ -97,7 +97,8 @@ input {
 
 input:focus {
     outline: none;
-    border: 2px solid var(--primary-dark) ;
+    border: 2px solid var(--primary-dark);
+    transition: 0.1s;
 }
 
 .pass-container {
@@ -145,3 +146,22 @@ input:focus {
     filter: opacity(0.8);
     transition: 0.3s ease-in;
 }
+
+/* animations */
+@keyframes right {
+    from {
+      opacity: 0;
+      transform: translatex(-35px)
+    }
+    to {
+      opacity: 1;
+      transform: translatex(0)
+    } 
+  }
+  
+  .animate-right {
+    transform: translatex(35px);
+    opacity: 0;
+  
+    animation: right 200ms forwards;
+  }
