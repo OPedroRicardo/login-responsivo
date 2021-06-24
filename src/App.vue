@@ -1,23 +1,10 @@
 <template>
-  <Home />
+  <router-view />
 </template>
-
 <script>
-import Home from './components/Home'
+import { defineComponent } from 'vue';
 
-export default {
-  name: 'App',
-  components: {
-    Home
-  }
-}
+export default defineComponent({
+  name: 'App'
+})
 </script>
-
-<style>
-  body {
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    height: 100vh;
-  }
-</style>
