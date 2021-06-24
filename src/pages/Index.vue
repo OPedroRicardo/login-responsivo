@@ -6,7 +6,7 @@
     </div>
     <q-form class="form column items center">
       <q-input v-model="form.name" label="Nome" />
-      <div class="row items-end justify-between">
+      <div class="row items-end justify-between no-wrap">
         <q-input class="password-input" v-model="form.password" :type="type" label="Senha" autocomplete> </q-input>
         <img :class="eyeButton.eyeDown"  v-on:click="viewPass()" tabindex src="../assets/eye-down.svg" alt="Botão ver senha desativada">
         <img v-on:click="hidePass()" :class="eyeButton.eye" tabindex  src="../assets/eye.svg" alt="Botão ver senha desativada">
@@ -16,7 +16,7 @@
       
     </q-form>
     <div class="footer column items-center">
-      <p class="text-center">Feito com ❤ para</p>
+      <p class="text-center">Feito com &#128153; para</p>
       <img src="../assets/ylogo.png" alt="YBOH logo">
     </div>
   </q-page>

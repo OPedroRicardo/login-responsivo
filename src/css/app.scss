@@ -27,19 +27,22 @@ p {
         font-size: 1.8rem;
         margin: 0 0 1.2rem 0;
     }
-
-    
 }
 
 .form {
     width: 100%;
+    gap: 3rem;
 
     .q-field__label {
         font-size: 1.2rem;
     } 
     
     .password-input {
-        width: 90%;
+        flex: 9;
+
+        @media (max-width: 640px) {
+            flex: 7;
+        }
     }
 
     .hide {
@@ -53,7 +56,6 @@ p {
         max-width: 455px;
         width: 70%;
         height: 3rem;
-        margin: 3rem 0;
     }
 
     img {
@@ -72,4 +74,5 @@ p {
 .footer {
     max-width: 710px;
     min-width: 50%;
+    margin-top: 4rem;
 }

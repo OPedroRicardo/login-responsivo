@@ -41,5 +41,4 @@ Desenvolver uma tela de login responsiva.
 ## Notas quase finais
 
 - Estou morrendo de sono por aprender Vue.js e Quasar, dado aula de lógica de programação, feito 2 provas e 2hrs de treino de Karate-Do em um só dia! Amanhã de manhã acordo cedinho pra melhorar algumas coisas que reparei.
-- Preciso ver se as imagens de olho não podem ser trocadas por ícones do Quasar e consertar as Medias Queries da div que junta o input de senha e o botão de olho.
-- Preciso substituir o ❤ por um ícone Quasar.
+- Consertar as Medias Queries da div que junta o input de senha e o botão de olho.
