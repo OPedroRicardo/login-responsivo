@@ -46,3 +46,4 @@ Tenho certeza que vou continuar estudando Vue e Quasar. Obrigado imensamente a Y
 
 Todo o esforço de aprender tudo em um dia valeu muito! Não havia um prazo estipulado, mas eu realmente quero isso pra mim.
 
+![Cartão pessoal Pedro Ricardo, Estudando de desenvolvimento Front-end](./src/assets/card.png)
