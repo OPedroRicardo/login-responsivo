@@ -38,7 +38,11 @@ Desenvolver uma tela de login responsiva.
 
 - Entender e aplicar o que vejo de principal no Quasar. (concluído!)
 
-## Notas quase finais
+## Notas finais (desabafo e agradecimento)
 
-- Estou morrendo de sono por aprender Vue.js e Quasar, dado aula de lógica de programação, feito 2 provas e 2hrs de treino de Karate-Do em um só dia! Amanhã de manhã acordo cedinho pra melhorar algumas coisas que reparei.
-- Consertar as Medias Queries da div que junta o input de senha e o botão de olho.
+Desafio divertidíssimo, confesso que fiquei cansado incluindo em aplicar Vue + Quasar em uma interface já feita, como mal havia tocado em Vue, foi complicado entender no começo, mas depois que peguei o jeito fiquei confortável codando, sei que não aproveitei nem 1% dos Frameworks (um dia chego lá kkk).
+
+Tenho certeza que vou continuar estudando Vue e Quasar. Obrigado imensamente a YBOH, em específico o Rafael (Product Owner), que me deu a oportunidade de me sentir mais valorizado e mais capaz.
+
+Todo o esforço de aprender tudo em um dia valeu muito! Não havia um prazo estipulado, mas eu realmente quero isso pra mim.
+
